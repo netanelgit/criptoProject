@@ -1,0 +1,667 @@
+@import url("https://fonts.googleapis.com/css2?family=Philosopher&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap");
+
+:root {
+  --primary: #2d3142;
+  --accent: #f29d52;
+  --background: #f5f7fa;
+  --card-bg: #ffffff;
+  --text: #1a1a1a;
+  --muted-text: #666;
+  --radius: 2rem;
+  --transition: all 0.3s ease;
+}
+
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+  scrollbar-width: none;
+}
+
+html {
+  /*By Default the font size is 16px (1rem), But we want change the default to 10px for easy calculate rem, 100/16=0.625 */
+  font-size: 62.5%;
+  font-family: 'Philosopher', sans-serif;
+  height: 100%;
+  background-color: var(--background);
+}
+
+body {
+  font-size: 1.6rem;
+  line-height: 1.6;
+  height: 100%;
+  background-color: var(--background);
+  color: var(--text);
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+.header {
+  position: fixed;
+  display: block;
+  width: 100%;
+  z-index: 5;
+}
+
+
+.main__container {
+  position: relative;
+  position: relative;
+  height: 100vh;
+  perspective: 5.5cm;
+  overflow-x: hidden;
+  background: linear-gradient(135deg, #eef2f3 0%, #8e9eab 100%);
+}
+
+.main__coins {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.liveReport {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+  padding: 20px;
+  color: #f9f7f7;
+}
+
+.coin-graph-container {
+  background-color: rgba(243, 248, 253, 0.9);
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.6);
+  padding: 15px;
+  color: #0b0b0b;
+  max-width: 420px;
+  flex: 1 1 400px;
+}
+
+#loading {
+  background-color: white;
+  background-image: url("../images/loading.png");
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: 20;
+}
+
+#loading img {
+  margin-bottom: 12%;
+  animation-duration: 1.5s;
+  animation-name: changeWidth;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: linear;
+}
+
+#loading h1 {
+  color: white;
+  position: absolute;
+  bottom: 50%;
+  left: 50%;
+  transform: translate(-50%, -10%);
+  margin-top: 60px;
+  font-size: 40px;
+}
+
+@keyframes changeWidth {
+  from {
+    width: 4rem;
+  }
+
+  to {
+    width: 7.5rem;
+  }
+}
+
+.navbar {
+  background-color: #00001f;
+  color: #fff;
+  z-index: 5;
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar__title {
+  width: 15rem;
+  display: flex;
+  margin-left: 2rem;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.navbar__items-container {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+
+.navbar__items-item {
+  margin: 1.5rem;
+  justify-content: center;
+  cursor: pointer;
+  align-items: center;
+}
+
+.navbar__items-item:hover {
+  color: #F29D52;
+}
+
+i {
+  font-size: 2rem;
+  margin: .5rem;
+}
+
+@media only screen and (max-width: 700px) {
+
+  .navbar__title-text,
+  .navbar__items-item-text {
+    display: none;
+  }
+}
+
+.parallax {
+  height: 35vh;
+  position: relative;
+  top: 80px;
+  width: 100%;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  flex-direction: column;
+}
+
+.parallax::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background-size: cover;
+  background-position: center;
+  /* Move the element back then scale the element, it helps to appears more slowly */
+  transform: translateZ(-1px) scale(1.7);
+  /* Set the parallax section before the other elements. */
+  z-index: -1;
+  background-image: url("../images/background1.png");
+  background-size: auto;
+}
+
+.parallax__title {
+  color: white;
+  font-size: 7rem;
+  text-transform: uppercase;
+}
+
+.parallax__subtitle {
+  color: white;
+  font-size: 2.5rem;
+  font-weight: 100;
+  font-family: "Nunito";
+  margin-bottom: 5rem;
+}
+.btn__search {
+  width: 50%;
+  min-width: 20rem;
+  max-width: 30rem;
+  background: white;
+  border: 2px solid #00001f;
+  border-radius: 5rem;
+  color: var(--text);
+  padding: 1rem 2rem;
+  margin-bottom: 2rem;
+  font-size: 1.6rem;
+  transition: var(--transition);
+}
+
+.btn__search:focus {
+  outline: none;
+  border-color: var(--primary);
+  box-shadow: 0 0 0 3px rgba(242, 157, 82, 0.3);
+}
+
+
+.btn__card-flip {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  color: rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+  transition: all 0.25s;
+  border-radius: 50%;
+  margin: 5px;
+  padding: 0;
+}
+
+.btn__card-flip i {
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.btn__card-flip i:hover {
+  transform: rotate(-270deg);
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.btn__card-info {
+  cursor: pointer;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  color: lightgray;
+  transition: 1s;
+}
+
+.btn__card-info:hover {
+  color: var(--accent);
+}
+
+.btn__card-toggle {
+  position: absolute;
+  top: 5px;
+  left: 5px;
+}
+
+.btn__toggle {
+  isolation: isolate;
+  position: relative;
+  height: 1.5rem;
+  width: 4rem;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: -8px -4px 8px 0px #ffffff, 8px 4px 12px 0px #d1d9e6,
+    4px 4px 4px 0px #d1d9e6 inset, -4px -4px 4px 0px #ffffff inset;
+}
+
+.btn__toggle-label {
+  display: inline-flex;
+  align-items: center;
+  cursor: pointer;
+  color: #394a56;
+}
+
+.btn__toggle-state {
+  display: none;
+}
+
+.btn__toggle-state:checked~.btn__toggle-indicator {
+  transform: translate3d(25%, 0, 0);
+  background: skyblue;
+}
+
+.btn__toggle-indicator {
+  height: 100%;
+  width: 200%;
+  background: lightgrey;
+  border-radius: 15px;
+  transform: translate3d(-75%, 0, 0);
+  transition: transform 0.4s cubic-bezier(0.85, 0.05, 0.18, 1.35);
+  box-shadow: -8px -4px 8px 0px #ffffff, 8px 4px 12px 0px #d1d9e6;
+}
+
+.btn__modal {
+  border-radius: var(--radius);
+  font-size: 1.6rem;
+  padding: 0.5rem 1.5rem;
+  cursor: pointer;
+  transition: var(--transition);
+  margin: 5px;
+}
+
+.btn__modal-apply:hover {
+  background-color: #e0883c;
+}
+
+.btn__modal-apply {
+  background: var(--accent);
+  color: white;
+}
+
+.btn__modal-cancel {
+  background: #ccc;
+  color: white;
+}
+
+.btn__modal-cancel:hover {
+  background: #999;
+}
+
+.btn__modal :active {
+  outline: none;
+}
+
+
+.coins__flex-grid {
+  width: 85%;
+  position: absolute;
+  top: 5rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+
+.card__list {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+
+.card__container {
+  background-color: var(--card-bg);
+  border-radius: var(--radius);
+  width: 300px;
+  height: 200px;
+  margin: 20px;
+  background-color: transparent;
+  perspective: 1200px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: var(--transition);
+}
+
+.card__container:hover .card__flipped {
+  transform: rotateX(180deg);
+}
+
+.card__container:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.15);
+}
+
+.card__container .card__flipped {
+  transform: rotateX(180deg);
+}
+
+.card__flip {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  border-radius: var(--radius);
+  transition: transform 1s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.card__front,
+.card__back {
+  display: flex;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  overflow: hidden;
+  background-color: white;
+  border-radius: var(--radius);
+  box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.05);
+}
+
+.card__back {
+  transform: rotateX(180deg);
+  background-image: linear-gradient(to top, #f77062 0%, #fe5196 100%);
+  background-image: linear-gradient(to top, #ebc0fd 0%, #d9ded8 100%);
+  background-image: linear-gradient(to top, #c79081 0%, #dfa579 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card__logo {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 9rem;
+  height: 9rem;
+}
+
+.card__text-name {
+  position: absolute;
+  bottom: 1rem;
+  left: 1rem;
+  font-size: 1.7rem;
+}
+
+.card__text-symbol {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  font-size: 1.7rem;
+}
+
+.card__counter-container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin: 1rem 1.5rem;
+}
+
+.card__counter-symbol {
+  color: white;
+}
+
+.card__counter-value {
+  color: white;
+  font-size: 2.2rem;
+  font-weight: bold;
+  margin-top: 1rem;
+}
+
+.card__progress-bar {
+  height: 0.4rem;
+  background-color: white;
+  width: 90%;
+  position: absolute;
+  top: 1rem;
+  transform-origin: left;
+}
+
+.modal {
+  align-self: center;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  min-height: 250px;
+  max-width: 600px;
+  display: flex;
+  flex-direction: column;
+  z-index: 10;
+  overflow: hidden;
+  border-radius: var(--radius);
+  background: var(--card-bg);
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+}
+
+.modal__overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(58, 12, 12, 0.7);
+  display: none;
+}
+
+.modal__header {
+  background: linear-gradient(to right, #f78ca0, #fd868c);
+  color: white;
+  border-top-left-radius: var(--radius);
+  border-top-right-radius: var(--radius);
+}
+
+.modal__header .modal__title {
+  font-size: 3rem;
+  padding: 10px;
+  text-align: center;
+}
+
+.modal__content {
+  width: 100%;
+}
+
+.modal__content .modal__message {
+  padding-left: 30px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  color: var(--muted-text);
+  font-weight: 100;
+  text-align: center;
+}
+
+.modal__content .modal__coins {
+  min-height: 25px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: 15px;
+}
+
+.modal__content .modal__coin-item {
+  margin: 15px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal__content .modal__coin-item img {
+  width: 65px;
+  height: 65px;
+  margin-bottom: 10px;
+}
+
+.modal__content .modal__coin-item h2 {
+  font-size: 1.5rem;
+  margin-bottom: 5px;
+}
+
+.modal__footer {
+  display: flex;
+  justify-content: center;
+  margin: 15px;
+}
+
+.stop-scrolling {
+  height: 100%;
+  overflow: hidden;
+}
+
+.hide {
+  display: none;
+}
+
+.about-text {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 450;
+  color: #333;
+  line-height: 1.6;
+  padding: 2rem;
+  background-color: rgba(211, 230, 250, 0.9);
+  border-radius: 6px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  max-width: 600px;
+  margin: 10px auto;
+}
+
+.about-paragraph {
+  margin-bottom: 12px;
+  font-size: 1.8rem;
+}
+
+.about-link {
+  color: #0066cc;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.about-link:hover {
+  text-decoration: underline;
+  color: #004999;
+}
+
+
+
+@media only screen and (max-width: 700px) {
+  .modal__content .modal__coins {
+    flex-direction: column;
+  }
+
+  .modal__content .modal__coins .modal__coin-item {
+    display: flex;
+    text-align: left;
+    align-items: center;
+    flex-direction: row-reverse;
+  }
+
+  .modal__content .modal__coins .modal__coin-item:nth-child(1) {
+    order: 2;
+  }
+
+  .modal__content .modal__coins .modal__coin-item:nth-child(2) {
+    order: 1;
+  }
+
+  .modal__content .modal__coins .modal__coin-item:nth-child(3) {
+    order: 3;
+  }
+
+  .modal__content .modal__coins img {
+    width: 30px;
+    height: 30px;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+
+  .navbar__title-text,
+  .navbar__items-item-text {
+    display: none;
+  }
+  .navbar__items-item:hover {
+    color: #F29D52;
+  }
+
+  .btn__search {
+    width: 80%;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .about-text {
+    font-size: 1.4rem;
+    padding: 1rem;
+    margin: 1.4rem;
+  }
+
+  .liveReport {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .coin-graph-container {
+    flex: auto;
+    width: 100%;
+    max-width: none;
+  }
+}

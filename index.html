@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Cryptonite</title>
+
+    <!-- Style -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+      integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog=="
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <!-- Loading -->
+    <section id="loading" class="loading">
+      <img
+        id="loading-img"
+        src="https://www.exodus.com/img/logos/1INCH.svg"
+        alt=""
+      />
+      <h1 id="loading-text"></h1>
+    </section>
+
+    <!-- Header -->
+    <header class="header">
+      <nav class="navbar">
+        <div class="navbar__title">
+          <i class="fab fa-btc fa-2x"></i>
+          <h3 class="navbar__title-text">Cryptonite</h3>
+        </div>
+
+        <!-- Nav items -->
+        <div class="navbar__items-container">
+          <div id="btnHome" class="navbar__items-item">
+            <i class="fas fa-home"></i>
+            <a class="navbar__items-item-text">HOME</a>
+          </div>
+
+          <div id="btnLiveReport" class="navbar__items-item">
+            <i class="fas fa-chart-line"></i>
+            <a class="navbar__items-item-text">LIVE REPORT</a>
+          </div>
+
+          <div id="btnAbout" class="navbar__items-item">
+            <i class="fas fa-info"></i>
+            <a class="navbar__items-item-text"> ABOUT</a>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="main__container">
+      <!-- Title & Search & parallax -->
+      <section class="parallax">
+        <h1 id="titleSection" class="parallax__title"></h1>
+        <h4 id="subTitleSection" class="parallax__subtitle"></h4>
+      </section>
+      <section id="main-dynamic" class="main__coins"></section>
+    </main>
+
+    <section id="modal" class="modal__overlay">
+      <div class="modal">
+        <div class="modal__header">
+          <h1 class="modal__title">Warning!</h1>
+        </div>
+        <div class="modal__content">
+          <h3 class="modal__message">You can not select more than 5 coins</h3>
+          <div id="modal-coin-items" class="modal__coins"></div>
+        </div>
+        <div class="modal__footer">
+          <button id="modal-close" class="btn__modal btn__modal-apply"  type="button" value="" >Apply</button>
+        </div>
+      </div>
+    </section>
+
+    <footer></footer>
+    <!-- script -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-streaming@2.0.0/dist/chartjs-plugin-streaming.min.js"></script>
+    <script src="js/__Config__.js"></script>
+    <script src="js/modules/Coin.js"></script>
+    <script src="js/modules/Utilities.js"></script>
+    <script src="js/modules/Display.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>

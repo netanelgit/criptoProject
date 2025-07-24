@@ -1,0 +1,1612 @@
+[
+    {
+      "ID": "bitcoin",
+      "Symbol": "BTC",
+      "Name": "BITCOIN",
+      "MarketData": {
+        "CurrentPrice": {
+          "USD": 38841,
+          "EUR": 31912,
+          "ILS": 126884
+        },
+        "MarketCap": 720625923995
+      },
+      "isSelected": false
+    },
+    {
+      "ID": "ethereum",
+      "Symbol": "ETH",
+      "Name": "ETHEREUM",
+      "MarketData": {
+        "CurrentPrice": {
+          "USD": 2626.91,
+          "EUR": 2158.27,
+          "ILS": 8581.51
+        },
+        "MarketCap": 303059960690
+      },
+      "isSelected": false
+    },
+    {
+      "ID": "tether",
+      "Symbol": "USDT",
+      "Name": "TETHER",
+      "MarketData": {
+        "CurrentPrice": {
+          "USD": 1.01,
+          "EUR": 0.828713,
+          "ILS": 3.29
+        },
+        "MarketCap": 59006431146
+      },
+      "isSelected": false
+    },
+    {
+      "ID": "ripple",
+      "Symbol": "XRP",
+      "Name": "XRP",
+      "MarketData": {
+        "CurrentPrice": {
+          "USD": 1.17,
+          "EUR": 0.959027,
+          "ILS": 3.81
+        },
+        "MarketCap": 53519779235
+      },
+      "isSelected": false
+    },
+    {
+      "ID": "binancecoin",
+      "Symbol": "BNB",
+      "Name": "BINANCE COIN",
+      "MarketData": {
+        "CurrentPrice": {
+          "USD": 385.32,
+          "EUR": 316.58,
+          "ILS": 1258.76
+        },
+        "MarketCap": 58718640533
+      },
+      "isSelected": false
+    },
+    {
+      "ID": "cardano",
+      "Symbol": "ADA",
+      "Name": "CARDANO",
+      "MarketData": {
+        "CurrentPrice": {
+          "USD": 1.64,
+          "EUR": 1.35,
+          "ILS": 5.36
+        },
+        "MarketCap": 52033413271
+      },
+      "isSelected": false
+    },
+    {
+      "ID": "dogecoin",
+      "Symbol": "DOGE",
+      "Name": "DOGECOIN",
+      "MarketData": {
+        "CurrentPrice": {
+          "USD": 0.36211,
+          "EUR": 0.297509,
+          "ILS": 1.18
+        },
+        "MarketCap": 46439496927
+      },
+      "isSelected": false
+    },
+    {
+      "ID": "polkadot",
+      "Symbol": "DOT",
+      "Name": "POLKADOT",
+      "MarketData": {
+        "CurrentPrice": {
+          "USD": 28.2,
+          "EUR": 23.17,
+          "ILS": 92.14
+        },
+        "MarketCap": 27921280689
+      },
+      "isSelected": false
+    },
+    {
+      "ID": "usd-coin",
+      "Symbol": "USDC",
+      "Name": "USD COIN",
+      "MarketData": {
+        "CurrentPrice": {
+          "USD": 1,
+          "EUR": 0.825004,
+          "ILS": 3.28
+        },
+        "MarketCap": 17440554989
+      },
+      "isSelected": false
+    },
+    {
+      "ID": "bitcoin-cash",
+      "Symbol": "BCH",
+      "Name": "BITCOIN CASH",
+      "MarketData": {
+        "CurrentPrice": {
+          "USD": 768.31,
+          "EUR": 631.25,
+          "ILS": 2509.91
+        },
+        "MarketCap": 14143647715
+      },
+      "isSelected": false
+    },
+    {
+      "ID": "litecoin",
+      "Symbol": "LTC",
+      "Name": "LITECOIN",
+      "MarketData": {
+        "CurrentPrice": {
+          "USD": 201.7,
+          "EUR": 165.72,
+          "ILS": 658.91
+        },
+        "MarketCap": 13454042900
+      },
+      "isSelected": false
+    },
+    {
+      "ID": "chainlink",
+      "Symbol": "LINK",
+      "Name": "CHAINLINK",
+      "MarketData": {
+        "CurrentPrice": {
+          "USD": 29.75,
+          "EUR": 24.43,
+          "ILS": 97.18
+        },
+        "MarketCap": 12698544339
+      },
+      "isSelected": false
+    },
+    {
+      "ID": "uniswap",
+      "Symbol": "UNI",
+      "Name": "UNISWAP",
+      "MarketData": {
+        "CurrentPrice": {
+          "USD": 25.92,
+          "EUR": 21.29,
+          "ILS": 84.66
+        },
+        "MarketCap": 13207071125
+      },
+      "isSelected": false
+    },
+    {
+      "ID": "solana",
+      "Symbol": "SOL",
+      "Name": "SOLANA",
+      "MarketData": {
+        "CurrentPrice": {
+          "USD": 41.28,
+          "EUR": 33.91,
+          "ILS": 134.85
+        },
+        "MarketCap": 11153859336
+      },
+      "isSelected": false
+    },
+    {
+      "ID": "stellar",
+      "Symbol": "XLM",
+      "Name": "STELLAR",
+      "MarketData": {
+        "CurrentPrice": {
+          "USD": 0.486332,
+          "EUR": 0.399569,
+          "ILS": 1.59
+        },
+        "MarketCap": 11140636091
+      },
+      "isSelected": false
+    },
+    {
+      "ID": "ethereum-classic",
+      "Symbol": "ETC",
+      "Name": "ETHEREUM CLASSIC",
+      "MarketData": {
+        "CurrentPrice": {
+          "USD": 65.03,
+          "EUR": 53.43,
+          "ILS": 212.45
+        },
+        "MarketCap": 8251147522
+      },
+      "isSelected": false
+    },
+    {
+      "ID": "vechain",
+      "Symbol": "VET",
+      "Name": "VECHAIN",
+      "MarketData": {
+        "CurrentPrice": {
+          "USD": 0.124836,
+          "EUR": 0.102565,
+          "ILS": 0.407809
+        },
+        "MarketCap": 8016514287
+      },
+      "isSelected": false
+    },
+    {
+      "ID": "wrapped-bitcoin",
+      "Symbol": "WBTC",
+      "Name": "WRAPPED BITCOIN",
+      "MarketData": {
+        "CurrentPrice": {
+          "USD": 38472,
+          "EUR": 31608,
+          "ILS": 125679
+        },
+        "MarketCap": 6839023093
+      },
+      "isSelected": false
+    },
+    {
+      "ID": "aave",
+      "Symbol": "AAVE",
+      "Name": "AAVE",
+      "MarketData": {
+        "CurrentPrice": {
+          "USD": 464.03,
+          "EUR": 381.25,
+          "ILS": 1515.88
+        },
+        "MarketCap": 5886074706
+      },
+      "isSelected": false
+    },
+    {
+      "ID": "tron",
+      "Symbol": "TRX",
+      "Name": "TRON",
+      "MarketData": {
+        "CurrentPrice": {
+          "USD": 0.086023,
+          "EUR": 0.070676,
+          "ILS": 0.281016
+        },
+        "MarketCap": 6142119913
+      },
+      "isSelected": false
+    },
+    {
+      "ID": "eos",
+      "Symbol": "EOS",
+      "Name": "EOS",
+      "MarketData": {
+        "CurrentPrice": {
+          "USD": 6.29,
+          "EUR": 5.16,
+          "ILS": 20.54
+        },
+        "MarketCap": 5981803435
+      },
+      "isSelected": false
+    },
+    {
+      "ID": "dai",
+      "Symbol": "DAI",
+      "Name": "DAI",
+      "MarketData": {
+        "CurrentPrice": {
+          "USD": 1.01,
+          "EUR": 0.828825,
+          "ILS": 3.29
+        },
+        "MarketCap": 4408097897
+      },
+      "isSelected": false
+    },
+    {
+      "ID": "monero",
+      "Symbol": "XMR",
+      "Name": "MONERO",
+      "MarketData": {
+        "CurrentPrice": {
+          "USD": 228.36,
+          "EUR": 187.62,
+          "ILS": 746.01
+        },
+        "MarketCap": 4061960418
+      },
+      "isSelected": false
+    },
+    {
+      "ID": "neo",
+      "Symbol": "NEO",
+      "Name": "NEO",
+      "MarketData": {
+        "CurrentPrice": {
+          "USD": 61.72,
+          "EUR": 50.71,
+          "ILS": 201.64
+        },
+        "MarketCap": 4319834597
+      },
+      "isSelected": false
+    },
+    {
+      "ID": "cosmos",
+      "Symbol": "ATOM",
+      "Name": "COSMOS",
+      "MarketData": {
+        "CurrentPrice": {
+          "USD": 15.2,
+          "EUR": 12.49,
+          "ILS": 49.65
+        },
+        "MarketCap": 3590853881
+      },
+      "isSelected": false
+    },
+    {
+      "ID": "ftx-token",
+      "Symbol": "FTT",
+      "Name": "FTX TOKEN",
+      "MarketData": {
+        "CurrentPrice": {
+          "USD": 40.07,
+          "EUR": 32.92,
+          "ILS": 130.89
+        },
+        "MarketCap": 3470945033
+      },
+      "isSelected": false
+    },
+    {
+      "ID": "tezos",
+      "Symbol": "XTZ",
+      "Name": "TEZOS",
+      "MarketData": {
+        "CurrentPrice": {
+          "USD": 3.9,
+          "EUR": 3.21,
+          "ILS": 12.75
+        },
+        "MarketCap": 3220214883
+      },
+      "isSelected": false
+    },
+    {
+      "ID": "bitcoin-cash-sv",
+      "Symbol": "BSV",
+      "Name": "BITCOIN SV",
+      "MarketData": {
+        "CurrentPrice": {
+          "USD": 179.42,
+          "EUR": 147.41,
+          "ILS": 586.12
+        },
+        "MarketCap": 3328631439
+      },
+      "isSelected": false
+    },
+    {
+      "ID": "maker",
+      "Symbol": "MKR",
+      "Name": "MAKER",
+      "MarketData": {
+        "CurrentPrice": {
+          "USD": 3886.01,
+          "EUR": 3192.74,
+          "ILS": 12694.69
+        },
+        "MarketCap": 3493008219
+      },
+      "isSelected": false
+    },
+    {
+      "ID": "algorand",
+      "Symbol": "ALGO",
+      "Name": "ALGORAND",
+      "MarketData": {
+        "CurrentPrice": {
+          "USD": 1.02,
+          "EUR": 0.838127,
+          "ILS": 3.33
+        },
+        "MarketCap": 3059967236
+      },
+      "isSelected": false
+    },
+    {
+      "ID": "crypto-com-chain",
+      "Symbol": "CRO",
+      "Name": "CRYPTO.COM COIN",
+      "MarketData": {
+        "CurrentPrice": {
+          "USD": 0.126783,
+          "EUR": 0.104164,
+          "ILS": 0.414169
+        },
+        "MarketCap": 3178502860
+      },
+      "isSelected": false
+    },
+    {
+      "ID": "bittorrent-2",
+      "Symbol": "BTT",
+      "Name": "BITTORRENT",
+      "MarketData": {
+        "CurrentPrice": {
+          "USD": 0.00441936,
+          "EUR": 0.00363094,
+          "ILS": 0.01443703
+        },
+        "MarketCap": 2867682281
+      },
+      "isSelected": false
+    },
+    {
+      "ID": "leo-token",
+      "Symbol": "LEO",
+      "Name": "LEO TOKEN",
+      "MarketData": {
+        "CurrentPrice": {
+          "USD": 3.17,
+          "EUR": 2.61,
+          "ILS": 10.36
+        },
+        "MarketCap": 3013845595
+      },
+      "isSelected": false
+    },
+    {
+      "ID": "sushi",
+      "Symbol": "SUSHI",
+      "Name": "SUSHI",
+      "MarketData": {
+        "CurrentPrice": {
+          "USD": 14.7,
+          "EUR": 12.08,
+          "ILS": 48.03
+        },
+        "MarketCap": 2452128274
+      },
+      "isSelected": false
+    },
+    {
+      "ID": "havven",
+      "Symbol": "SNX",
+      "Name": "SYNTHETIX NETWORK TOKEN",
+      "MarketData": {
+        "CurrentPrice": {
+          "USD": 16.14,
+          "EUR": 13.26,
+          "ILS": 52.72
+        },
+        "MarketCap": 2469078371
+      },
+      "isSelected": false
+    },
+    {
+      "ID": "compound-governance-token",
+      "Symbol": "COMP",
+      "Name": "COMPOUND",
+      "MarketData": {
+        "CurrentPrice": {
+          "USD": 554.21,
+          "EUR": 455.34,
+          "ILS": 1810.47
+        },
+        "MarketCap": 2823994819
+      },
+      "isSelected": false
+    },
+    {
+      "ID": "dash",
+      "Symbol": "DASH",
+      "Name": "DASH",
+      "MarketData": {
+        "CurrentPrice": {
+          "USD": 212.16,
+          "EUR": 174.31,
+          "ILS": 693.08
+        },
+        "MarketCap": 2137020524
+      },
+      "isSelected": false
+    },
+    {
+      "ID": "hedera-hashgraph",
+      "Symbol": "HBAR",
+      "Name": "HEDERA HASHGRAPH",
+      "MarketData": {
+        "CurrentPrice": {
+          "USD": 0.244708,
+          "EUR": 0.201052,
+          "ILS": 0.799406
+        },
+        "MarketCap": 2007077523
+      },
+      "isSelected": false
+    },
+    {
+      "ID": "waves",
+      "Symbol": "WAVES",
+      "Name": "WAVES",
+      "MarketData": {
+        "CurrentPrice": {
+          "USD": 20.27,
+          "EUR": 16.65,
+          "ILS": 66.21
+        },
+        "MarketCap": 2045855733
+      },
+      "isSelected": false
+    },
+    {
+      "ID": "nem",
+      "Symbol": "XEM",
+      "Name": "NEM",
+      "MarketData": {
+        "CurrentPrice": {
+          "USD": 0.211413,
+          "EUR": 0.173697,
+          "ILS": 0.690637
+        },
+        "MarketCap": 1874553363
+      },
+      "isSelected": false
+    },
+    {
+      "ID": "zcash",
+      "Symbol": "ZEC",
+      "Name": "ZCASH",
+      "MarketData": {
+        "CurrentPrice": {
+          "USD": 162.74,
+          "EUR": 133.7,
+          "ILS": 531.62
+        },
+        "MarketCap": 1798174166
+      },
+      "isSelected": false
+    },
+    {
+      "ID": "yearn-finance",
+      "Symbol": "YFI",
+      "Name": "YEARN.FINANCE",
+      "MarketData": {
+        "CurrentPrice": {
+          "USD": 50368,
+          "EUR": 41382,
+          "ILS": 164541
+        },
+        "MarketCap": 1797050423
+      },
+      "isSelected": false
+    },
+    {
+      "ID": "decred",
+      "Symbol": "DCR",
+      "Name": "DECRED",
+      "MarketData": {
+        "CurrentPrice": {
+          "USD": 135.39,
+          "EUR": 111.23,
+          "ILS": 442.28
+        },
+        "MarketCap": 1730481052
+      },
+      "isSelected": false
+    },
+    {
+      "ID": "zilliqa",
+      "Symbol": "ZIL",
+      "Name": "ZILLIQA",
+      "MarketData": {
+        "CurrentPrice": {
+          "USD": 0.124184,
+          "EUR": 0.102029,
+          "ILS": 0.40568
+        },
+        "MarketCap": 1484292784
+      },
+      "isSelected": false
+    },
+    {
+      "ID": "paxos-standard",
+      "Symbol": "PAX",
+      "Name": "PAXOS STANDARD",
+      "MarketData": {
+        "CurrentPrice": {
+          "USD": 1.01,
+          "EUR": 0.82577,
+          "ILS": 3.28
+        },
+        "MarketCap": 1276328788
+      },
+      "isSelected": false
+    },
+    {
+      "ID": "true-usd",
+      "Symbol": "TUSD",
+      "Name": "TRUEUSD",
+      "MarketData": {
+        "CurrentPrice": {
+          "USD": 1,
+          "EUR": 0.823092,
+          "ILS": 3.27
+        },
+        "MarketCap": 1202841435
+      },
+      "isSelected": false
+    },
+    {
+      "ID": "qtum",
+      "Symbol": "QTUM",
+      "Name": "QTUM",
+      "MarketData": {
+        "CurrentPrice": {
+          "USD": 12.21,
+          "EUR": 10.03,
+          "ILS": 39.89
+        },
+        "MarketCap": 1245696100
+      },
+      "isSelected": false
+    },
+    {
+      "ID": "basic-attention-token",
+      "Symbol": "BAT",
+      "Name": "BASIC ATTENTION TOKEN",
+      "MarketData": {
+        "CurrentPrice": {
+          "USD": 0.830915,
+          "EUR": 0.682679,
+          "ILS": 2.71
+        },
+        "MarketCap": 1223571034
+      },
+      "isSelected": false
+    },
+    {
+      "ID": "uma",
+      "Symbol": "UMA",
+      "Name": "UMA",
+      "MarketData": {
+        "CurrentPrice": {
+          "USD": 17.6,
+          "EUR": 14.46,
+          "ILS": 57.5
+        },
+        "MarketCap": 1058615924
+      },
+      "isSelected": false
+    },
+    {
+      "ID": "decentraland",
+      "Symbol": "MANA",
+      "Name": "DECENTRALAND",
+      "MarketData": {
+        "CurrentPrice": {
+          "USD": 0.873396,
+          "EUR": 0.717581,
+          "ILS": 2.85
+        },
+        "MarketCap": 1142596731
+      },
+      "isSelected": false
+    },
+    {
+      "ID": "bitcoin-gold",
+      "Symbol": "BTG",
+      "Name": "BITCOIN GOLD",
+      "MarketData": {
+        "CurrentPrice": {
+          "USD": 62.46,
+          "EUR": 51.31,
+          "ILS": 204.03
+        },
+        "MarketCap": 1083907167
+      },
+      "isSelected": false
+    },
+    {
+      "ID": "digibyte",
+      "Symbol": "DGB",
+      "Name": "DIGIBYTE",
+      "MarketData": {
+        "CurrentPrice": {
+          "USD": 0.084301,
+          "EUR": 0.069261,
+          "ILS": 0.275391
+        },
+        "MarketCap": 1191350887
+      },
+      "isSelected": false
+    },
+    {
+      "ID": "the-graph",
+      "Symbol": "GRT",
+      "Name": "THE GRAPH",
+      "MarketData": {
+        "CurrentPrice": {
+          "USD": 0.832573,
+          "EUR": 0.684042,
+          "ILS": 2.72
+        },
+        "MarketCap": 1001094171
+      },
+      "isSelected": false
+    },
+    {
+      "ID": "ontology",
+      "Symbol": "ONT",
+      "Name": "ONTOLOGY",
+      "MarketData": {
+        "CurrentPrice": {
+          "USD": 1.26,
+          "EUR": 1.04,
+          "ILS": 4.12
+        },
+        "MarketCap": 1021007514
+      },
+      "isSelected": false
+    },
+    {
+      "ID": "bancor",
+      "Symbol": "BNT",
+      "Name": "BANCOR NETWORK TOKEN",
+      "MarketData": {
+        "CurrentPrice": {
+          "USD": 5.18,
+          "EUR": 4.26,
+          "ILS": 16.92
+        },
+        "MarketCap": 1025124802
+      },
+      "isSelected": false
+    },
+    {
+      "ID": "0x",
+      "Symbol": "ZRX",
+      "Name": "0X",
+      "MarketData": {
+        "CurrentPrice": {
+          "USD": 1.13,
+          "EUR": 0.93134,
+          "ILS": 3.7
+        },
+        "MarketCap": 940452368
+      },
+      "isSelected": false
+    },
+    {
+      "ID": "nano",
+      "Symbol": "NANO",
+      "Name": "NANO",
+      "MarketData": {
+        "CurrentPrice": {
+          "USD": 7.18,
+          "EUR": 5.9,
+          "ILS": 23.47
+        },
+        "MarketCap": 948938116
+      },
+      "isSelected": false
+    },
+    {
+      "ID": "omisego",
+      "Symbol": "OMG",
+      "Name": "OMG NETWORK",
+      "MarketData": {
+        "CurrentPrice": {
+          "USD": 6.08,
+          "EUR": 4.99,
+          "ILS": 19.86
+        },
+        "MarketCap": 843630805
+      },
+      "isSelected": false
+    },
+    {
+      "ID": "icon",
+      "Symbol": "ICX",
+      "Name": "ICON",
+      "MarketData": {
+        "CurrentPrice": {
+          "USD": 1.32,
+          "EUR": 1.08,
+          "ILS": 4.31
+        },
+        "MarketCap": 822927218
+      },
+      "isSelected": false
+    },
+    {
+      "ID": "curve-dao-token",
+      "Symbol": "CRV",
+      "Name": "CURVE DAO TOKEN",
+      "MarketData": {
+        "CurrentPrice": {
+          "USD": 2.14,
+          "EUR": 1.76,
+          "ILS": 7
+        },
+        "MarketCap": 785465106
+      },
+      "isSelected": false
+    },
+    {
+      "ID": "ravencoin",
+      "Symbol": "RVN",
+      "Name": "RAVENCOIN",
+      "MarketData": {
+        "CurrentPrice": {
+          "USD": 0.096168,
+          "EUR": 0.079011,
+          "ILS": 0.314158
+        },
+        "MarketCap": 835097203
+      },
+      "isSelected": false
+    },
+    {
+      "ID": "lisk",
+      "Symbol": "LSK",
+      "Name": "LISK",
+      "MarketData": {
+        "CurrentPrice": {
+          "USD": 4.67,
+          "EUR": 3.84,
+          "ILS": 15.27
+        },
+        "MarketCap": 665649344
+      },
+      "isSelected": false
+    },
+    {
+      "ID": "1inch",
+      "Symbol": "1INCH",
+      "Name": "1INCH",
+      "MarketData": {
+        "CurrentPrice": {
+          "USD": 3.74,
+          "EUR": 3.08,
+          "ILS": 12.23
+        },
+        "MarketCap": 621661986
+      },
+      "isSelected": false
+    },
+    {
+      "ID": "ethos",
+      "Symbol": "VGX",
+      "Name": "VOYAGER TOKEN",
+      "MarketData": {
+        "CurrentPrice": {
+          "USD": 2.67,
+          "EUR": 2.19,
+          "ILS": 8.72
+        },
+        "MarketCap": 593655570
+      },
+      "isSelected": false
+    },
+    {
+      "ID": "republic-protocol",
+      "Symbol": "REN",
+      "Name": "REN",
+      "MarketData": {
+        "CurrentPrice": {
+          "USD": 0.511683,
+          "EUR": 0.420398,
+          "ILS": 1.67
+        },
+        "MarketCap": 444989408
+      },
+      "isSelected": false
+    },
+    {
+      "ID": "balancer",
+      "Symbol": "BAL",
+      "Name": "BALANCER",
+      "MarketData": {
+        "CurrentPrice": {
+          "USD": 36.86,
+          "EUR": 30.29,
+          "ILS": 120.42
+        },
+        "MarketCap": 392725215
+      },
+      "isSelected": false
+    },
+    {
+      "ID": "dent",
+      "Symbol": "DENT",
+      "Name": "DENT",
+      "MarketData": {
+        "CurrentPrice": {
+          "USD": 0.00406206,
+          "EUR": 0.00333738,
+          "ILS": 0.01326982
+        },
+        "MarketCap": 384373504
+      },
+      "isSelected": false
+    },
+    {
+      "ID": "iexec-rlc",
+      "Symbol": "RLC",
+      "Name": "IEXEC RLC",
+      "MarketData": {
+        "CurrentPrice": {
+          "USD": 5.04,
+          "EUR": 4.14,
+          "ILS": 16.48
+        },
+        "MarketCap": 354593497
+      },
+      "isSelected": false
+    },
+    {
+      "ID": "vethor-token",
+      "Symbol": "VTHO",
+      "Name": "VETHOR TOKEN",
+      "MarketData": {
+        "CurrentPrice": {
+          "USD": 0.01007208,
+          "EUR": 0.00827521,
+          "ILS": 0.03290317
+        },
+        "MarketCap": 352023240
+      },
+      "isSelected": false
+    },
+    {
+      "ID": "serum",
+      "Symbol": "SRM",
+      "Name": "SERUM",
+      "MarketData": {
+        "CurrentPrice": {
+          "USD": 6,
+          "EUR": 4.93,
+          "ILS": 19.61
+        },
+        "MarketCap": 298585798
+      },
+      "isSelected": false
+    },
+    {
+      "ID": "golem",
+      "Symbol": "GLM",
+      "Name": "GOLEM",
+      "MarketData": {
+        "CurrentPrice": {
+          "USD": 0.28711,
+          "EUR": 0.23589,
+          "ILS": 0.937924
+        },
+        "MarketCap": 285066106
+      },
+      "isSelected": false
+    },
+    {
+      "ID": "gnosis",
+      "Symbol": "GNO",
+      "Name": "GNOSIS",
+      "MarketData": {
+        "CurrentPrice": {
+          "USD": 183.13,
+          "EUR": 150.46,
+          "ILS": 598.24
+        },
+        "MarketCap": 274178378
+      },
+      "isSelected": false
+    },
+    {
+      "ID": "numeraire",
+      "Symbol": "NMR",
+      "Name": "NUMERAIRE",
+      "MarketData": {
+        "CurrentPrice": {
+          "USD": 46.16,
+          "EUR": 37.93,
+          "ILS": 150.81
+        },
+        "MarketCap": 261588527
+      },
+      "isSelected": false
+    },
+    {
+      "ID": "pax-gold",
+      "Symbol": "PAXG",
+      "Name": "PAX GOLD",
+      "MarketData": {
+        "CurrentPrice": {
+          "USD": 1879.28,
+          "EUR": 1544.02,
+          "ILS": 6139.18
+        },
+        "MarketCap": 245147532
+      },
+      "isSelected": false
+    },
+    {
+      "ID": "funfair",
+      "Symbol": "FUN",
+      "Name": "FUNTOKEN",
+      "MarketData": {
+        "CurrentPrice": {
+          "USD": 0.0249257,
+          "EUR": 0.02047893,
+          "ILS": 0.081427
+        },
+        "MarketCap": 254819074
+      },
+      "isSelected": false
+    },
+    {
+      "ID": "ark",
+      "Symbol": "ARK",
+      "Name": "ARK",
+      "MarketData": {
+        "CurrentPrice": {
+          "USD": 1.47,
+          "EUR": 1.2,
+          "ILS": 4.79
+        },
+        "MarketCap": 227537684
+      },
+      "isSelected": false
+    },
+    {
+      "ID": "storm",
+      "Symbol": "STMX",
+      "Name": "STORMX",
+      "MarketData": {
+        "CurrentPrice": {
+          "USD": 0.02738189,
+          "EUR": 0.02249693,
+          "ILS": 0.08945
+        },
+        "MarketCap": 229825803
+      },
+      "isSelected": false
+    },
+    {
+      "ID": "civic",
+      "Symbol": "CVC",
+      "Name": "CIVIC",
+      "MarketData": {
+        "CurrentPrice": {
+          "USD": 0.314156,
+          "EUR": 0.25811,
+          "ILS": 1.03
+        },
+        "MarketCap": 206792549
+      },
+      "isSelected": false
+    },
+    {
+      "ID": "polymath-network",
+      "Symbol": "POLY",
+      "Name": "POLYMATH NETWORK",
+      "MarketData": {
+        "CurrentPrice": {
+          "USD": 0.232354,
+          "EUR": 0.190902,
+          "ILS": 0.759048
+        },
+        "MarketCap": 191166508
+      },
+      "isSelected": false
+    },
+    {
+      "ID": "aragon",
+      "Symbol": "ANT",
+      "Name": "ARAGON",
+      "MarketData": {
+        "CurrentPrice": {
+          "USD": 4.85,
+          "EUR": 3.99,
+          "ILS": 15.86
+        },
+        "MarketCap": 168821836
+      },
+      "isSelected": false
+    },
+    {
+      "ID": "augur",
+      "Symbol": "REP",
+      "Name": "AUGUR",
+      "MarketData": {
+        "CurrentPrice": {
+          "USD": 22.99,
+          "EUR": 18.89,
+          "ILS": 75.11
+        },
+        "MarketCap": 148276462
+      },
+      "isSelected": false
+    },
+    {
+      "ID": "storj",
+      "Symbol": "STORJ",
+      "Name": "STORJ",
+      "MarketData": {
+        "CurrentPrice": {
+          "USD": 1.08,
+          "EUR": 0.883805,
+          "ILS": 3.51
+        },
+        "MarketCap": 153404645
+      },
+      "isSelected": false
+    },
+    {
+      "ID": "metal",
+      "Symbol": "MTL",
+      "Name": "METAL",
+      "MarketData": {
+        "CurrentPrice": {
+          "USD": 2.37,
+          "EUR": 1.94,
+          "ILS": 7.73
+        },
+        "MarketCap": 151334181
+      },
+      "isSelected": false
+    },
+    {
+      "ID": "district0x",
+      "Symbol": "DNT",
+      "Name": "DISTRICT0X",
+      "MarketData": {
+        "CurrentPrice": {
+          "USD": 0.203297,
+          "EUR": 0.167028,
+          "ILS": 0.664124
+        },
+        "MarketCap": 150990924
+      },
+      "isSelected": false
+    },
+    {
+      "ID": "gas",
+      "Symbol": "GAS",
+      "Name": "GAS",
+      "MarketData": {
+        "CurrentPrice": {
+          "USD": 8.73,
+          "EUR": 7.17,
+          "ILS": 28.52
+        },
+        "MarketCap": 119473433
+      },
+      "isSelected": false
+    },
+    {
+      "ID": "power-ledger",
+      "Symbol": "POWR",
+      "Name": "POWER LEDGER",
+      "MarketData": {
+        "CurrentPrice": {
+          "USD": 0.248431,
+          "EUR": 0.204094,
+          "ILS": 0.811566
+        },
+        "MarketCap": 105705179
+      },
+      "isSelected": false
+    },
+    {
+      "ID": "melon",
+      "Symbol": "MLN",
+      "Name": "ENZYME",
+      "MarketData": {
+        "CurrentPrice": {
+          "USD": 67.71,
+          "EUR": 55.63,
+          "ILS": 221.19
+        },
+        "MarketCap": 89567539
+      },
+      "isSelected": false
+    },
+    {
+      "ID": "gemini-dollar",
+      "Symbol": "GUSD",
+      "Name": "GEMINI DOLLAR",
+      "MarketData": {
+        "CurrentPrice": {
+          "USD": 1.01,
+          "EUR": 0.829371,
+          "ILS": 3.3
+        },
+        "MarketCap": 82478992
+      },
+      "isSelected": false
+    },
+    {
+      "ID": "populous",
+      "Symbol": "PPT",
+      "Name": "POPULOUS",
+      "MarketData": {
+        "CurrentPrice": {
+          "USD": 2.2,
+          "EUR": 1.8,
+          "ILS": 7.17
+        },
+        "MarketCap": 78786418
+      },
+      "isSelected": false
+    },
+    {
+      "ID": "request-network",
+      "Symbol": "REQ",
+      "Name": "REQUEST",
+      "MarketData": {
+        "CurrentPrice": {
+          "USD": 0.073331,
+          "EUR": 0.060248,
+          "ILS": 0.239554
+        },
+        "MarketCap": 55219553
+      },
+      "isSelected": false
+    },
+    {
+      "ID": "sai",
+      "Symbol": "SAI",
+      "Name": "SAI",
+      "MarketData": {
+        "CurrentPrice": {
+          "USD": 14.77,
+          "EUR": 12.08,
+          "ILS": 48.14
+        },
+        "MarketCap": 52402446
+      },
+      "isSelected": false
+    },
+    {
+      "ID": "veritaseum",
+      "Symbol": "VERI",
+      "Name": "VERITASEUM",
+      "MarketData": {
+        "CurrentPrice": {
+          "USD": 21.03,
+          "EUR": 17.28,
+          "ILS": 68.7
+        },
+        "MarketCap": 45339665
+      },
+      "isSelected": false
+    },
+    {
+      "ID": "digixdao",
+      "Symbol": "DGD",
+      "Name": "DIGIXDAO",
+      "MarketData": {
+        "CurrentPrice": {
+          "USD": 504.83,
+          "EUR": 414.76,
+          "ILS": 1649.15
+        },
+        "MarketCap": 46175140
+      },
+      "isSelected": false
+    },
+    {
+      "ID": "dragonchain",
+      "Symbol": "DRGN",
+      "Name": "DRAGONCHAIN",
+      "MarketData": {
+        "CurrentPrice": {
+          "USD": 0.147802,
+          "EUR": 0.121434,
+          "ILS": 0.482834
+        },
+        "MarketCap": 54020891
+      },
+      "isSelected": false
+    },
+    {
+      "ID": "ripio-credit-network",
+      "Symbol": "RCN",
+      "Name": "RIPIO CREDIT NETWORK",
+      "MarketData": {
+        "CurrentPrice": {
+          "USD": 0.078953,
+          "EUR": 0.064868,
+          "ILS": 0.257921
+        },
+        "MarketCap": 40016240
+      },
+      "isSelected": false
+    },
+    {
+      "ID": "airswap",
+      "Symbol": "AST",
+      "Name": "AIRSWAP",
+      "MarketData": {
+        "CurrentPrice": {
+          "USD": 0.214142,
+          "EUR": 0.175939,
+          "ILS": 0.699553
+        },
+        "MarketCap": 36558025
+      },
+      "isSelected": false
+    },
+    {
+      "ID": "cindicator",
+      "Symbol": "CND",
+      "Name": "CINDICATOR",
+      "MarketData": {
+        "CurrentPrice": {
+          "USD": 0.01969006,
+          "EUR": 0.01617196,
+          "ILS": 0.064323
+        },
+        "MarketCap": 37987342
+      },
+      "isSelected": false
+    },
+    {
+      "ID": "raiden-network",
+      "Symbol": "RDN",
+      "Name": "RAIDEN NETWORK TOKEN",
+      "MarketData": {
+        "CurrentPrice": {
+          "USD": 0.487127,
+          "EUR": 0.400223,
+          "ILS": 1.59
+        },
+        "MarketCap": 32351242
+      },
+      "isSelected": false
+    },
+    {
+      "ID": "salt",
+      "Symbol": "SALT",
+      "Name": "SALT",
+      "MarketData": {
+        "CurrentPrice": {
+          "USD": 0.356248,
+          "EUR": 0.292586,
+          "ILS": 1.16
+        },
+        "MarketCap": 31164223
+      },
+      "isSelected": false
+    },
+    {
+      "ID": "quantstamp",
+      "Symbol": "QSP",
+      "Name": "QUANTSTAMP",
+      "MarketData": {
+        "CurrentPrice": {
+          "USD": 0.04624751,
+          "EUR": 0.03799691,
+          "ILS": 0.15108
+        },
+        "MarketCap": 32872685
+      },
+      "isSelected": false
+    },
+    {
+      "ID": "qash",
+      "Symbol": "QASH",
+      "Name": "QASH",
+      "MarketData": {
+        "CurrentPrice": {
+          "USD": 0.083263,
+          "EUR": 0.068409,
+          "ILS": 0.272001
+        },
+        "MarketCap": 28740901
+      },
+      "isSelected": false
+    },
+    {
+      "ID": "bnktothefuture",
+      "Symbol": "BFT",
+      "Name": "BNKTOTHEFUTURE",
+      "MarketData": {
+        "CurrentPrice": {
+          "USD": 0.087645,
+          "EUR": 0.072009,
+          "ILS": 0.286315
+        },
+        "MarketCap": 28326795
+      },
+      "isSelected": false
+    },
+    {
+      "ID": "dentacoin",
+      "Symbol": "DCN",
+      "Name": "DENTACOIN",
+      "MarketData": {
+        "CurrentPrice": {
+          "USD": 0.00004316,
+          "EUR": 0.00003546,
+          "ILS": 0.00014098
+        },
+        "MarketCap": 30477313
+      },
+      "isSelected": false
+    },
+    {
+      "ID": "genesis-vision",
+      "Symbol": "GVT",
+      "Name": "GENESIS VISION",
+      "MarketData": {
+        "CurrentPrice": {
+          "USD": 5.46,
+          "EUR": 4.49,
+          "ILS": 17.85
+        },
+        "MarketCap": 23808857
+      },
+      "isSelected": false
+    },
+    {
+      "ID": "santiment-network-token",
+      "Symbol": "SAN",
+      "Name": "SANTIMENT NETWORK TOKEN",
+      "MarketData": {
+        "CurrentPrice": {
+          "USD": 0.215164,
+          "EUR": 0.176778,
+          "ILS": 0.702891
+        },
+        "MarketCap": 13678846
+      },
+      "isSelected": false
+    },
+    {
+      "ID": "bread",
+      "Symbol": "BRD",
+      "Name": "BREAD",
+      "MarketData": {
+        "CurrentPrice": {
+          "USD": 0.1806,
+          "EUR": 0.148381,
+          "ILS": 0.589978
+        },
+        "MarketCap": 14594169
+      },
+      "isSelected": false
+    },
+    {
+      "ID": "time-new-bank",
+      "Symbol": "TNB",
+      "Name": "TIME NEW BANK",
+      "MarketData": {
+        "CurrentPrice": {
+          "USD": 0.00360142,
+          "EUR": 0.00295892,
+          "ILS": 0.01176502
+        },
+        "MarketCap": 12300455
+      },
+      "isSelected": false
+    },
+    {
+      "ID": "pillar",
+      "Symbol": "PLR",
+      "Name": "PILLAR",
+      "MarketData": {
+        "CurrentPrice": {
+          "USD": 0.04664174,
+          "EUR": 0.03831768,
+          "ILS": 0.152368
+        },
+        "MarketCap": 11897828
+      },
+      "isSelected": false
+    },
+    {
+      "ID": "appcoins",
+      "Symbol": "APPC",
+      "Name": "APPCOINS",
+      "MarketData": {
+        "CurrentPrice": {
+          "USD": 0.101241,
+          "EUR": 0.083179,
+          "ILS": 0.33073
+        },
+        "MarketCap": 11267971
+      },
+      "isSelected": false
+    },
+    {
+      "ID": "revain",
+      "Symbol": "REV",
+      "Name": "REVAIN",
+      "MarketData": {
+        "CurrentPrice": {
+          "USD": 0.01971717,
+          "EUR": 0.0161996,
+          "ILS": 0.064411
+        },
+        "MarketCap": 9481307
+      },
+      "isSelected": false
+    },
+    {
+      "ID": "viberate",
+      "Symbol": "VIB",
+      "Name": "VIBERATE",
+      "MarketData": {
+        "CurrentPrice": {
+          "USD": 0.054207,
+          "EUR": 0.04453242,
+          "ILS": 0.17708
+        },
+        "MarketCap": 9742580
+      },
+      "isSelected": false
+    },
+    {
+      "ID": "tenx",
+      "Symbol": "PAY",
+      "Name": "TENX",
+      "MarketData": {
+        "CurrentPrice": {
+          "USD": 0.083073,
+          "EUR": 0.068253,
+          "ILS": 0.27138
+        },
+        "MarketCap": 9267937
+      },
+      "isSelected": false
+    },
+    {
+      "ID": "amber",
+      "Symbol": "AMB",
+      "Name": "AMBROSUS",
+      "MarketData": {
+        "CurrentPrice": {
+          "USD": 0.04012047,
+          "EUR": 0.03296294,
+          "ILS": 0.131064
+        },
+        "MarketCap": 5768102
+      },
+      "isSelected": false
+    },
+    {
+      "ID": "matchpool",
+      "Symbol": "GUP",
+      "Name": "GUPPY",
+      "MarketData": {
+        "CurrentPrice": {
+          "USD": 0.00197748,
+          "EUR": 0.0016241,
+          "ILS": 0.00645998
+        },
+        "MarketCap": 142599
+      },
+      "isSelected": false
+    },
+    {
+      "ID": "greentrust",
+      "Symbol": "GNT",
+      "Name": "GREENTRUST",
+      "MarketData": {
+        "CurrentPrice": {
+          "USD": 0.00004737,
+          "EUR": 0.00003892,
+          "ILS": 0.00015474
+        },
+        "MarketCap": 0
+      },
+      "isSelected": false
+    }
+  ]
