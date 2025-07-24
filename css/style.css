@@ -87,7 +87,7 @@ body::-webkit-scrollbar {
 
 #loading {
   background-color: white;
-  background-image: url("../images/loading.png");
+  background-image: url("https://github.com/netanelgit/criptoProject/blob/master/images/loading.png?raw=true");
   background-size: cover;
   display: flex;
   align-items: center;
@@ -199,7 +199,7 @@ i {
   transform: translateZ(-1px) scale(1.7);
   /* Set the parallax section before the other elements. */
   z-index: -1;
-  background-image: url("../images/background1.png");
+  background-image: url("https://github.com/netanelgit/criptoProject/blob/master/images/background1.png?raw=true");
   background-size: auto;
 }
 
