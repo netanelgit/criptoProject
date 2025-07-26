@@ -666,3 +666,41 @@ i {
     max-width: none;
   }
 }
+
+/* // Responsive styles for smaller screens A54 galaxy */
+@media only screen and (max-width: 412px) {
+  .parallax__title {
+    font-size: 3rem;
+    /* color: yellow; */
+    text-transform: uppercase;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  }
+  .parallax__subtitle {
+    font-size: 1.5rem;
+    color: white;
+    font-weight: 100;
+    font-family: "Nunito";
+    margin-bottom: 2rem;
+  }
+
+  .about-paragraph{
+    font-size: 1.6rem;
+    padding: 0.8rem;
+    margin: 1rem;
+  }
+
+  .liveReport {
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    font-size: 0.6rem;
+    gap: 20px;
+    padding: 10px;
+  }
+
+  .coin-graph-container {
+    padding: 10px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+    width: 300px;
+  }
+}
