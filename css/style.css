@@ -678,7 +678,7 @@ i {
   .parallax__subtitle {
     font-size: 1.5rem;
     color: white;
-    font-weight: 100;
+    font-weight: 600;
     font-family: "Nunito";
     margin-bottom: 2rem;
   }
@@ -693,7 +693,7 @@ i {
     flex-direction: column;
     align-items: center;
     margin: auto;
-    font-size: 0.6rem;
+    font-size: 1.4rem;
     gap: 20px;
     padding: 10px;
   }
