@@ -1,5 +1,7 @@
 /// <reference path="modules/Display.js" />
 /// <reference path="modules/Coin.js" />
+/// <reference path="modules/Utilities.js" />
+/// <reference path="modules/Chart.js" />
 
 //--------------------Arguments-------------------
 //Coins Data:
@@ -239,7 +241,8 @@ async function setLiveReport() {
   
     const initialPrice = await fetchCoinPrice(coin.ID);
 
-    const chart = createLiveChart(canvas.id, coin, initialPrice);
+    const chart = createLiveChart(coin, initialPrice);
+
     chartsToUpdate.push({ chart, coinId: coin.ID });
   }
   
@@ -261,61 +264,11 @@ async function fetchCoinPrice(coinId) {
   }
 }
 
-function getRandomRGB() {
-    const r = Math.floor(Math.random() * 256);
-    const g = Math.floor(Math.random() * 256);
-    const b = Math.floor(Math.random() * 256);
-    return `rgb(${r}, ${g}, ${b})`;
-}
+function createLiveChart(coin, initialPrice) {
 
-function createLiveChart(canvasId, coin, initialPrice) {
-  const ctx = document.getElementById(canvasId).getContext("2d");
+  const chart = new ChartElement(coin, initialPrice);
+  chart.createChart();
 
-  const data = {
-    labels: [new Date().toLocaleTimeString()],
-    datasets: [{
-      label: `${coin.Name} Price (USD) - ${initialPrice}`,
-      data: [initialPrice],
-      borderColor: getRandomRGB(),
-      backgroundColor: "rgba(78, 161, 255, 0.2)",
-      fill: true,
-      tension: 0.3,
-      pointRadius: 2,
-      borderWidth: 2,
-    }]
-  };
-
-  const config = {
-    type: 'line',
-    data: data,
-    options: {
-      animation: false,
-      responsive: true,
-      scales: {
-        x: {
-          type: 'category',
-          ticks: {
-            color: '#0a0a0aff'
-          }
-        },
-        y: {
-          beginAtZero: false,
-          ticks: {
-            color: '#0a0a09ff'
-          }
-        }
-      },
-      plugins: {
-        legend: {
-          labels: {
-            color: '#090909ff'
-          }
-        }
-      }
-    }
-  };
-
-  const chart = new Chart(ctx, config);
   return chart;
 }
 
@@ -328,6 +281,7 @@ function startLiveReportUpdates() {
       chart.data.labels.push(now);
       chart.data.datasets[0].data.push(price);
       chart.data.datasets[0].label = `${coinId} Price (USD) - ${price}`;
+
       if (price < chart.data.datasets[0].data[chart.data.datasets[0].data.length - 2]) {
         chart.options.plugins.legend.labels.color = 'red'; 
       }
@@ -340,7 +294,7 @@ function startLiveReportUpdates() {
         chart.data.datasets[0].data.shift();
       }
 
-      chart.update('none');
+      chart.update();
     }
   }, 10000);
 }
